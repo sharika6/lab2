@@ -26,9 +26,10 @@ static int count=0;
 	    System.out.println("Enter your grade      :");
         char grade=sc.next().charAt(0);
         if(grade == 'a' || grade == 'b' || grade == 'c'|| grade == 'd'){
-        }
-        else{
+        
         	System.out.println("Grade should be a or b or c or d");
+        	System.out.println("Enter your grade      :");
+             grade=sc.next().charAt(0);
         }
         System.out.println("enter date");
         int dd = sc.nextInt();
